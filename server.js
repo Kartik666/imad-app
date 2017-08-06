@@ -10,15 +10,15 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function(req,res){
-	res.send("Article One Requested");
+	res.send('Article One Requested');
 });
 
 app.get('/article-two', function(req,res){
-	res.send("Article two Requested");
+	res.send('Article two Requested');
 });
 
 app.get('/article-three', function(req,res){
-	res.send("Article three Requested");
+	res.send('Article three Requested');
 });
 
 app.get('/ui/style.css', function (req, res) {
