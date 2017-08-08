@@ -9,7 +9,7 @@ buttonElement.onclick = function(){
                var counterVar = request.responseText;
                
                var spanVar = document.getElementById('counter-id');
-               spanVar.innerHtml = counterVar.toString();
+               spanVar.innerHTML = counterVar.toString();
             }
         }
     };
