@@ -1,15 +1,6 @@
 var buttonElement = document.getElementById('button');
-var img = document.getElementById('image');
-var height = 400;
-function enl(){
-    do{
-    height = height + 10;
-    img.style.height = height + 'px';
-    }while(height <= 500);
-}
 
 buttonElement.onclick = function(){
-    var inter = setInterval(enl,100);
     //create request object
    var request = new XMLHttpRequest();
     
