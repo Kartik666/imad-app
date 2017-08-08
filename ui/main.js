@@ -1,5 +1,12 @@
 var buttonElement = document.getElementById('button');
+var height = 0;
+function enl(){
+    height = height + 10;
+    buttonElement.style.height = height + 'px';
+}
+
 buttonElement.onclick = function(){
+    var inter = buttonElement.setInterval(enl,100);
     //create request object
    var request = new XMLHttpRequest();
     
