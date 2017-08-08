@@ -1,9 +1,11 @@
 var buttonElement = document.getElementById('button');
 var img = document.getElementById('image');
-var height = 0;
+var height = 400;
 function enl(){
+    do{
     height = height + 10;
     img.style.height = height + 'px';
+    }while(height <= 500);
 }
 
 buttonElement.onclick = function(){
