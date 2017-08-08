@@ -5,7 +5,7 @@ function enl(){
     do{
     height = height + 10;
     img.style.height = height + 'px';
-    }while(height <= 500);
+    }while(height <= 420);
 }
 
 buttonElement.onclick = function(){
