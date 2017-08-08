@@ -7,7 +7,7 @@ function enl(){
 }
 
 buttonElement.onclick = function(){
-    var inter = img.setInterval(enl,100);
+    var inter = setInterval(enl,100);
     //create request object
    var request = new XMLHttpRequest();
     
