@@ -1,12 +1,13 @@
 var buttonElement = document.getElementById('button');
+var img = document.getElementById('image');
 var height = 0;
 function enl(){
     height = height + 10;
-    buttonElement.style.height = height + 'px';
+    img.style.height = height + 'px';
 }
 
 buttonElement.onclick = function(){
-    var inter = buttonElement.setInterval(enl,100);
+    var inter = img.setInterval(enl,100);
     //create request object
    var request = new XMLHttpRequest();
     
